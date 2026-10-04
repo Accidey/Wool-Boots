@@ -1,0 +1,22 @@
+{
+  "type": "woolboots:wool_sole",
+  "category": "equipment",
+  "pattern": [
+    "WBW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "B": {
+      "type": "woolboots:unsoled_boots"
+    }
+  },
+  "result": {
+    "id": "minecraft:leather_boots",
+    "components": {
+      "woolboots:wool_sole": {}
+    }
+  }
+}

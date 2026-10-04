@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Xulai"
+displayTest="IGNORE_ALL_VERSION"
+description='''
+Xulai Wool Boots - craft a wool sole onto any pair of boots with 5 wool in a boat shape, and the boots stop making vibrations.
+Wearing boots with a wool sole silences the step and the landing vibrations, so wardens and sculk sensors cannot detect you.
+Enchantments, durability and armor set bonuses of the original boots are fully kept: the wool sole is an upgrade added on top of them, just like an enchantment.
+Vanilla boots and modded boots are all supported, and the tooltip of the boots shows whether they have a wool sole.
+
+羊毛靴子：用 5 个羊毛摆成船的形状，中间放上一双靴子，就能给这双靴子加上羊毛鞋底。
+穿上带羊毛鞋底的靴子后，行走、奔跑与落地都不会产生振动，监守者和幽匿感测体无法察觉。
+原靴子的附魔、耐久与套装效果全部保留，羊毛鞋底只是叠加在上面的增强，效果类似附魔。
+原版靴子与模组靴子都可以合成，物品 Tooltip 会显示是否带有羊毛鞋底。
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
